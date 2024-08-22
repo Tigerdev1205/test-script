@@ -1,0 +1,16 @@
+Write a function:
+
+function solution(S: string): number;
+
+that, given a string S of length N, consisting of letters 'a' and/or 'b', returns the number of different three-letter words that are substrings (consecutive fragments) of S.
+
+Examples:
+1. Given S = "bababb", the function should return 3. Three different three-letter words are substrings: "bab" (occurs twice), "aba" (occurs once), and "abb" (occurs once).
+
+2. Given S = "bbbaaab", the function should return 5. There are five three-letter substrings ("bbb", "bba", "baa", "aaa" and "aab"), all of which are different.
+
+3. Given S = "ab", the function should return 0. There is no three-letter substring.
+
+Write an efficient algorithm for the following assumptions:
+- N is an integer within the range [1..200,000];
+- string S is made only of the characters 'a' and/or 'b'.
